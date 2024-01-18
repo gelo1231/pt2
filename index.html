@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Events</title>
+  <style>
+    /* Body styles with background image */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-repeat: no-repeat;
+      background-image: url('background.jpg'); /* Replace 'background.jpg' with your image file */
+      background-size: cover;
+      background-position: center;
+      color: whitesmoke; /* Text color */
+    }
+
+    /* Container styles for the entire content */
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: transparent; /* Semi-transparent white background */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    }
+
+    /* Styles for the sports events section */
+    .sports-section {
+      background-color: transparent;
+      padding: 20px;
+      margin: 20px;
+      border-radius: 8px;
+    }
+
+    /* Style for each sports event */
+    .event {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid black;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.6s ease, transform 0.5s ease; /* Smooth transitions for hover effect */
+    }
+
+    /* Style for the sports event image */
+    .event img {
+      width: 150px; /* Adjust the image width as needed */
+      margin-right: 30px;
+      border-radius: 10%; /* Circular images */
+    }
+
+    /* Hover effect for sports events with linear gradient */
+    .event:hover {
+      background: linear-gradient(to right, #43cbff, #9708cc); /* Gradient color on hover */
+      transform: translateX(20px); /* Slide to the right on hover */
+    }
+
+    /* Header styles */
+    h2, h3, p {
+      margin: 0;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Container for content -->
+  <div class="container">
+
+    <!-- Sports Events Section -->
+    <div class="sports-section">
+      <h2>Current Sports Events</h2>
+
+      <!-- Individual Sports Events -->
+      <div class="event">
+        <img src="football.avif" alt="Football Match">
+        <div>
+          <h3>Mexico and Jamaica come from behind late to qualify for 2024 Copa América</h3>
+          <p>Edson Álvarez saved Mexico from elimination with a goal in the 11th minute of second-half stoppage time and El Tri beat Honduras 4-2 on penalty kicks Tuesday night to qualify for next year's Copa América along with Jamaica, which rallied past Canada. Mexico's César Huerta was twice allowed to retake his penalty kick in the shootout after two saves by Edrick Menjívar when Salvadoran referee Iván Barton ruled the goalkeeper moved too early. Huerta scored on his third attempt for the 4-2 lead and Andy Najar, who spurned the USA national team to play for Honduras, put his shot wide as Mexican players celebrated.</p>
+        </div>
+      </div>
+
+      <div class="event">
+        <img src="basketball.jpg" alt="Basketball Game">
+        <div>
+          <h3>The Rundown: LeBron scores 39,000th point; Haliburton, Pacers clinch quarterfinals berth</h3>
+          <p>Scoreboard
+Magic 126, Raptors 107
+Pacers 157, Hawks 152
+Cavaliers 122, 76ers 119
+Suns 120, Trail Blazers 107
+Lakers 131, Jazz 99
+What went down
+Even at 38 years old, LeBron James continues to remind everyone that he is arguably the greatest to ever play the game.
+In the Lakers' rout of the Jazz, James had 17 points to reach the 39,000-point mark, becoming the first player in league history to hit that milestone.
+That moment set the tone for the Lakers, who early in the game established a double-digit lead over the Jazz and never looked back.
+Anthony Davis had 26 and 16 to help the Lakers stay unbeaten in the In-Season Tournament group play, earning them a quarterfinals spot next month.</p>
+        </div>
+      </div>
+
+      <div class="event">
+        <img src="tennis.jpg" alt="Tennis Tournament">
+        <div>
+          <h3>Ana Ivanovic recalls Rafael Nadal conversation that illustrates Novak Djokovic longevity</h3>
+          <p>Ana Ivanovic has revealed a conversation she had with Rafael Nadal which arguably makes the unrivalled longevity of Novak Djokovic even more impressive. 
+The former French Open champion recalled how Nadal told her in 2008 that he did not know “how long I will last”, while describing the fact Djokovic remains so healthy as “fascinating.”
+Djokovic saw off world No 4 Jannik Sinner 6-3, 6-3 in the final of the 2023 ATP Finals in Turin on Sunday to claim a record seventh title at the year-end championships.
+Despite turning 36 in May, Djokovic has had one of the finest seasons of his glittering career in 2023, having won seven tournaments, including six ‘big titles’ (Grand Slams, ATP Finals and Masters 1000).</p>
+        </div>
+      </div>
+      <!-- Add more events as needed -->
+    </div>
+  </div>
+</body>
+</html>
